@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet"  href="estilos.css" />
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+        crossorigin="anonymous"
+    />
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <!--titulo-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 style="text-align: center;">Formulario de Auto diagnostico</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--Preguntas-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form>
+                    <p><strong>1. ¿su organismo de inspección que desea acreditar se encuentra legalmente constituido y cuenta con personería jurídica?  </strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta1" id="p11"> Si </li>
+                        <li><input type="radio" name="pregunta1" id="p12"> No</li>
+                    </ol>
+                    <p><strong>2. ¿ha revisado y gestionado el tipo de imparcialidad e independencia con que desea ejercer la operación de las actividades de inspección? </strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta2" id="p21"> Si </li>
+                        <li><input type="radio" name="pregunta2" id="p22"> No</li>
+                    </ol>
+                    <p><strong>3. ¿su organismo de inspección cuenta con la capacidad para realizar las actividades? es decir cuanta con el recurso humano vinculado y los equipos de medición e infraestructura necesaria para operar y responder por sus operaciones?</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta3" id="p31"> Si </li>
+                        <li><input type="radio" name="pregunta3" id="p32"> No</li>
+                    </ol>
+                    <p><strong>4. ¿El recurso humano vinculado al organismo cuenta con un gerente técnico, suplente, e inspector (es) y personal necesario para participar en las actividades de inspección y ¿estos han sido formados, supervisados y autorizados formalmente para ejercer las actividades de inspección? </strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta4" id="p41"> Si </li>
+                        <li><input type="radio" name="pregunta4" id="p42"> No</li>
+                    </ol>
+                    
+                    <p><strong>5. ¿su organismo de inspección cuenta con los equipos de medición necesarios para realizar las actividades de inspección?</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta5" id="p51"> Si </li>
+                        <li><input type="radio" name="pregunta5" id="p52"> No</li>
+                    </ol>
+
+                    <p><strong>6. ¿estos equipos de inspección cuentan con trazabilidad metrológica, es decir son trazables a patrones nacionales o internacionales?</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta6" id="p61"> Si </li>
+                        <li><input type="radio" name="pregunta6" id="p62"> No</li>
+                    </ol>
+
+                    <p><strong>7. ¿su organismo de inspección ha desarrollado los métodos y procedimientos a emplear para las actividades de inspección para todo el alcance en que desea acreditarse?</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta7" id="p71"> Si </li>
+                        <li><input type="radio" name="pregunta7" id="p72"> No</li>
+                    </ol>
+
+                    <p><strong>8. ¿ha realizado actividades de inspección así sean de forma simulada, aplicando los requisitos técnicos de evaluación de la conformidad, así como los establecidos en los criterios de acreditación y ha emitido los respectivos informes y/o certificados de inspección?</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta8" id="p81"> Si </li>
+                        <li><input type="radio" name="pregunta8" id="p82"> No</li>
+                    </ol>
+
+                    <p><strong>9. ¿cuenta con un sistema de gestión establecido e implementado acorde a la norma ISO/IEC 17020:2012?</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta9" id="p91"> Si </li>
+                        <li><input type="radio" name="pregunta9" id="p92"> No</li>
+                    </ol>
+
+                    <p><strong>10. ¿la auditoría interna realizado a su organismo de inspección arrojó como resultados que el organismo cumple con los requisitos de la norma ISO/IEC 17020:2012 y que su sistema de gestión está implementado y es eficaz?</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta10" id="p101"> Si </li>
+                        <li><input type="radio" name="pregunta10" id="p102"> No</li>
+                    </ol>
+                    <hr />
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="resultado2();validacion()">
+                        RESULTADOS
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" onblur="window.location.reload()">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Recomendaciones</h1>
+                            </div>
+
+                            
+                            <div class="modal-body" >
+                                <div class="modal-imagen">
+                                    <div class="container" >
+                                        <img id="img" class="img-responsive" src="#" alt="" width="25%"  >
+                                    </div>
+                                </div>
+                                <div class="message-Modal" id="mensajeModal">
+                                </div>
+                                </div>
+                                <div class="modal-warning" id="advertenciaModal">
+                                </div>
+                            
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onClick="window.location.reload();" >Cerrar</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    
+
+
+                    
+                    <hr />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!--Llamada al script de respuestas-->
+    <script src="respuestas.js"></script>
+</body>
+
+</html>

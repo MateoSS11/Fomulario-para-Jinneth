@@ -1,0 +1,11 @@
+.modal-imagen {
+    text-align : center;
+}
+
+.modal-body {
+    text-align: justify;
+}
+
+.modal-warning {
+    color: #FF0000;;
+}
